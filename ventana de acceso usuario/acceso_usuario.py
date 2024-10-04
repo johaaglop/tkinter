@@ -5,8 +5,8 @@ ventana = tkinter.Tk()
 def login():
     nombre = nombre_var.get()
     password = password_var.get()
-    if nombre == "admin" and password == "12345":
-        mensaje_label.configure(text="Acceso autorizado")
+    if nombre == "johana10" and password == "joha10":
+        mensaje_label.configure(text="Acceso Autorizado")
     else:
         mensaje_label.configure(text="Acceso Denegado!!")
 
